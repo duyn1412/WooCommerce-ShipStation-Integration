@@ -1,5 +1,5 @@
-add new data 
-
+<?php
+//add new data to xml 
 
 add_filter('woocommerce_shipstation_export_order_xml', 'd_add_new_data');
 function d_add_new_data($order_xml){
